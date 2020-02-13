@@ -135,19 +135,47 @@ All branch names are in lower case. Examples:
 - BE NICE TO PEOPLE :D
 
 ## Styling  
+### File Structure
+components, pages, helpers, commons. Try to keep it flat no more than 2 layers
 ### Naming Convention
+- BEM
 ### Nesting
+:bulb: Try not to create to many layers. 2 is the prefered number.
+```css
+.#{$global-namespace}-login-page{
+  .form-btn{
+  .submit{}
+  .cancle{}
+}
+.#{$global-namespace}-form-input{
+  .error{}
+}
+}
+```
 ### Responsive
 ```css
-Styling – components, pages, helpers, commons. Try to keep it flat no more than 2 layers
-.vhi-login-page{
-.form-btn{
-.submit{}
-.cancle{}
+/* Mobile first please */
+[class*="col-"] {
+  width: 100%;
 }
-form-input{
-.error{}
+.#{$global-namespace}-form-page{
+  padding: 10px;
 }
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .#{$global-namespace}-form-page{
+    padding: 50px;
+    color: blue;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .#{$global-namespace}-form-page{
+    padding: 150px;
+    color: pink;
+  }
 }
 ```
 
