@@ -1,15 +1,17 @@
 # VHI frontend Software Development
 OVERVIEW
 - [Scrum](#Scrum)
-  - principals
-  - board
-  - stories/acceptance criteria/task
-- Version Control
-- Pull Request
-- Coding Principals - simple and consistent
-- Testing
-- Deployment
-- Environment
+  - [Scrum Principals]Scrum Principals
+  - [Scrum Board]Scrum Board
+  - [Story]stories
+  - [Acceptance-Criteria]Acceptance Criteria
+  - [Tasks]Tasks
+- [Version-Control]Version Control
+- [Pull-Request]Pull Request
+- [Coding-Principals]Coding Principals - simple and consistent
+- [Testing]Testing
+- [Deployment]Deployment
+- [Environment]Environment
 
 ## Scrum
 ### Sprints  
@@ -55,7 +57,8 @@ Note: stories must be specified and grouped before any sprints start
 
 
 ## Story
-```As a user   
+```
+As a user   
 I want to have my inputs validated  
 So that the system can store my information correctly and inform me in a graceful manner if I made any mistakes.    
 
@@ -65,15 +68,17 @@ If the “name” is empty I should see a message popup saying the “the name i
 
 2. If the “name” length is more that 110 chars I should see a message popup saying the “the length of the name exceeds the limit”  
 
-3. If the validation of any input is doesn’t not pass the page should automatically scroll to the position of the first input that does not pass the validation and highlighted in red and the error message will be displayed to the right of the input```
-
+3. If the validation of any input is doesn’t not pass the page should automatically scroll to the position of the first input that does not pass the validation and highlighted in red and the error message will be displayed to the right of the input
+```
 ## Acceptance Criteria
-```Given that I have open the app  
+```
+Given that I have open the app  
 And I navigate to the application form page  
 When I click on submit button  
 And the name is empty   
 Then the popup will be displayed  
 And the message in the popup is “the name input can not be empty”  
+
 
 Given that I have open the app  
 And I navigate to the application form page
@@ -81,7 +86,28 @@ When I click on submit button
 And the name is one or more spaces 
 Then the popup will be displayed
 And the message in the popup is “the name input can not be empty”
+```
+## Task
+```
+Create input validator layer in the data model and the returned result should contain the property name and the correct error message – 4 hours
+Unit test the validator with required scenarios – 2 hours
+Trigger popup component if the validation failed – 1 hour
+Highlight the input box and display the error message at the right of the input. – 3 hours
+Scroll the window to the first input that contains error. – 3 hours
+```
 
-…```
+## Version Control
+All branch names are in lower case. Examples:
+
+```feature/pccs-201-create-pop-up-component```
+```bug/pccs-301-pop-up-not-showing-up-when-request-fails```
+
+```Feature branch – task level```
+```Fix branch – fix during QA phase```
+```Bug branch – bug found at Prod phase```
+```Dev branch – dev branch and only dev branch goes into QA env```
+```Release branch – test, test, test, test, test then if happy, merge it into master```
+```Master branch – master and only master branch goes into pre-prod and prod```
+
 
 
