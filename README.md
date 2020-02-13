@@ -109,5 +109,17 @@ All branch names are in lower case. Examples:
 ```Release branch – test, test, test, test, test then if happy, merge it into master```  
 ```Master branch – master and only master branch goes into pre-prod and prod```  
 
+## Pull Request
+- What is the PR about?
+- Why this PR exist?
+- If you have left some legacy, why?
+[]Include the story link and the task link
+[]check CI
+[]Only handling events in the controller
+[]Business logics stays in the data model
+[]complexity analysis
+[]No business logics in the view
+[]Unit test all functions
+[]Intergration test all features
 
 
