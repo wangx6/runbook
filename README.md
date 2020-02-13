@@ -27,8 +27,10 @@ Note: stories must be specified and grouped before any sprints start
 ### Refinement  
 - Who – QA, BA, DEV  
 - Input – stories for the next sprint  
-- Output – acceptance criteria which describe all details of a story    
-**IMPORTANT**: stories must be ready and signed off. Time management is crucial to make sure all the ACs are defined by the end of this meeting. Keep discussion of the story to minimum. The focus of to create ACs.
+- Output – acceptance criteria which describe all details of a story 
+```
+:bulb: IMPORTANT: stories must be ready and signed off. Time management is crucial to make sure all the ACs are defined by the end of this meeting. Keep discussion of the story to minimum. The focus of to create ACs.
+```
 ### Planning  
 - Time – the day before the sprint. (Yes, the whole day)  
 - Who – QA, Dev  
