@@ -140,10 +140,42 @@ All branch names are in lower case. Examples:
 ### Responsive
 
 ## Testing  
-### TDD
-### BDD
+Pre testing at PR stage – this may includes unit test, automation test, linting.  
+Unit testing – Both TDD and BDD. TDD will test a function as a unit and does not   
+deal with business logics directly. BDD will test public function’s outcome which describes a business logic.  
+example – 
+```javascript
+// TDD
+Const queryApi = async (url = config.DEFAULT.LOGIN_API, payload) => await http.post(url)});}  
 
-## Deployment  
+// TDD  
+Const checkEmptyStr = (str) => //.test(str);  
+
+// BDD  
+Const validateLoginResponse = (res) => {  
+        checkEmptyStr(res.data);  
+        … other checks  
+}  
+
+// BDD
+const userLogin =  async () => {
+        const res = await queryApi(url, {}); 
+        return validateLoginResponse(res);
+}
+```
+- Automation test
+- Penetration test
+- Performance test – loading speed on different level of networks. Image rendering. Image size. Interaction responsiveness.
+- Manual test
+- Devices – test on all devices. Including portrait and landscape.
+- Human perception test. Including loading speed, A11Y test.
+
+
+## Deployment
+We user openShift to handle our deployment.  
+- Deployment to QA environment - Dev lead, Test lead
+- Multi-branch setup on Jenkins
+
 
 ## Environment  
 - __DEV__ – (example pccs-test.vhi.dev)
