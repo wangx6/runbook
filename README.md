@@ -91,13 +91,17 @@ And the message in the popup is “the name input can not be empty”
 ```
 Create input validator layer in the data model and the returned result should  
 contain the property name and the correct error message – 4 hours  
-  
+```
+```  
 Unit test the validator with required scenarios – 2 hours  
-  
+```
+```
 Trigger popup component if the validation failed – 1 hour  
-  
+```
+```
 Highlight the input box and display the error message at the right of the input. – 3 hours  
-  
+```
+```
 Scroll the window to the first input that contains error. – 3 hours
 ```
 
