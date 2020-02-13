@@ -140,16 +140,18 @@ components, pages, helpers, commons. Try to keep it flat no more than 2 layers
 ### Naming Convention
 - BEM
 ### Nesting
+```
 :bulb: Try not to create to many layers. 2 is the prefered number.
+```  
 ```css
 .#{$global-namespace}-login-page{
   .form-btn{
-  .submit{}
-  .cancle{}
-}
-.#{$global-namespace}-form-input{
-  .error{}
-}
+    .submit{}
+    .cancle{}
+  }
+  .#{$global-namespace}-form-input{
+    .error{}
+  }
 }
 ```
 ### Responsive
