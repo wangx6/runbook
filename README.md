@@ -122,6 +122,8 @@ All branch names are in lower case. Examples:
 - What is the PR about?
 - Why this PR exist?
 - If you have left some legacy, why?
+
+- Check list  
 - [ ] Include the story link and the task link
 - [ ] check CI
 - [ ] Only handling events in the controller
@@ -130,5 +132,23 @@ All branch names are in lower case. Examples:
 - [ ] No business logics in the view
 - [ ] Unit test all functions
 - [ ] Intergration test all features
+- BE NICE TO PEOPLE :D
+
+## Styling  
+### Naming Convention
+### Nesting
+### Responsive
+
+## Testing  
+### TDD
+### BDD
+
+## Deployment  
+
+## Environment  
+- __DEV__ – (example pccs-test.vhi.dev)
+- __QA__ --  (example MULTIPLE – ie. pccs-test.vhi.QA-0-DEV)
+- __PRE-PROD__ – (example pccs-test.vhi.pre-prod)
+- __PROD__ 
 
 
