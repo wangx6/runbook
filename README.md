@@ -113,7 +113,7 @@ All branch names are in lower case. Examples:
 - What is the PR about?
 - Why this PR exist?
 - If you have left some legacy, why?
-- []Include the story link and the task link
+- [checkbox:unchecked]Include the story link and the task link
 - []check CI
 - []Only handling events in the controller
 []Business logics stays in the data model
