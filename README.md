@@ -138,6 +138,18 @@ All branch names are in lower case. Examples:
 ### Naming Convention
 ### Nesting
 ### Responsive
+```css
+Styling – components, pages, helpers, commons. Try to keep it flat no more than 2 layers
+.vhi-login-page{
+.form-btn{
+.submit{}
+.cancle{}
+}
+form-input{
+.error{}
+}
+}
+```
 
 ## Testing  
 Pre testing at PR stage – this may includes unit test, automation test, linting.  
