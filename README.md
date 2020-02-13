@@ -99,15 +99,15 @@ Scroll the window to the first input that contains error. – 3 hours
 ## Version Control
 All branch names are in lower case. Examples:
 
-```feature/pccs-201-create-pop-up-component```
-```bug/pccs-301-pop-up-not-showing-up-when-request-fails```
+```feature/pccs-201-create-pop-up-component```  
+```bug/pccs-301-pop-up-not-showing-up-when-request-fails```  
 
-```Feature branch – task level```
-```Fix branch – fix during QA phase```
-```Bug branch – bug found at Prod phase```
-```Dev branch – dev branch and only dev branch goes into QA env```
-```Release branch – test, test, test, test, test then if happy, merge it into master```
-```Master branch – master and only master branch goes into pre-prod and prod```
+```Feature branch – task level```  
+```Fix branch – fix during QA phase```  
+```Bug branch – bug found at Prod phase```  
+```Dev branch – dev branch and only dev branch goes into QA env```  
+```Release branch – test, test, test, test, test then if happy, merge it into master```  
+```Master branch – master and only master branch goes into pre-prod and prod```  
 
 
 
