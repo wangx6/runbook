@@ -55,7 +55,7 @@ Note: stories must be specified and grouped before any sprints start
 
 
 ## Story
-As a user   
+```As a user   
 I want to have my inputs validated  
 So that the system can store my information correctly and inform me in a graceful manner if I made any mistakes.    
 
@@ -65,10 +65,10 @@ If the “name” is empty I should see a message popup saying the “the name i
 
 2. If the “name” length is more that 110 chars I should see a message popup saying the “the length of the name exceeds the limit”  
 
-3. If the validation of any input is doesn’t not pass the page should automatically scroll to the position of the first input that does not pass the validation and highlighted in red and the error message will be displayed to the right of the input
+3. If the validation of any input is doesn’t not pass the page should automatically scroll to the position of the first input that does not pass the validation and highlighted in red and the error message will be displayed to the right of the input```
 
-
-``Given that I have open the app  
+## Acceptance Criteria
+```Given that I have open the app  
 And I navigate to the application form page  
 When I click on submit button  
 And the name is empty   
@@ -80,8 +80,8 @@ And I navigate to the application form page
 When I click on submit button
 And the name is one or more spaces 
 Then the popup will be displayed
-And the message in the popup is “the name input can not be empty”``
+And the message in the popup is “the name input can not be empty”
 
-…
+…```
 
 
