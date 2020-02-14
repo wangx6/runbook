@@ -25,56 +25,60 @@ Simplicity and consistency is what we try to achieve.
 ## Scrum
 ### Scrum Principals
 #### Sprints  
-2 or 3 weeks ( 10 – 15 working days, 60 to 90 working hours )      
-#### Scope and seek – define stories and details of each story  
-- Input – business requirement  
-- Output – stories and stories details  
-- Who – UX, UI, PM and SM  
-Note: stories must be specified and grouped before any sprints start  
+- 2 or 3 weeks ( 10 – 15 working days, 60 to 90 working hours )
+- Code freeze period will take up 2-3 days at the end of each sprint, hence, dev time ≈ 45 - 75 hours
+#### Scope and seek  
+Define stories and __DETAILS__ of each story. Details MUST be in place when a story is created 
+- __Input__ – business requirement  
+- __Who__ – UX, UI, PM and SM
+- __Output__ – stories and stories details
+__Note__: stories must be specified and grouped before any sprints start  
 #### Stand-up  
 - What have you done yesterday and what do you plan to achieve today  
-- Any blockers or concerns  
-#### Refinement  
-- Who – QA, BA, DEV  
-- Input – stories for the next sprint  
-- Output – acceptance criteria which describe all details of a story 
+- Any blockers or concerns
+- Keep it under 10 minutes
+#### Refinement
+- __When__ - Commonly once a week ane 1 hour per session. Time is crucial.
+- __Input__ – Stories with details for the next sprint
+- __Who__ – QA, BA, DEV
+- __Host__ - BA
+- __Output__ – Acceptance criteria which describe all details of a story 
 ```
-:bulb:  IMPORTANT: stories must be ready and signed off. Time management is crucial to make sure all the  
+__IMPORTANT:__ stories must be ready and signed off. Time management is crucial to make sure all the  
 ACs are defined by the end of this meeting. Keep discussion of the story to minimum. The focus of to  
 create ACs.
 ```
 #### Planning  
-- Time – the day before the sprint. (Yes, the whole day)  
-- Who – QA, Dev  
-- Input -- acceptance criteria  
-- Output – technical tasks with estimated time in hours (6 hours per day)  
+- __When__ – the day before the sprint. (Yes, the whole day)  
+- __Who__ – QA, Dev  
+- __Input__ -- acceptance criteria  
+- __Output__ – technical tasks with estimated time in hours (6 hours per day)  
 #### Code freeze  
-- When – 2 days before the end of sprint  
-- Purpose – prepare for the demo  
-- Action – freeze the code as much as possible.  
-- Exceptions – any modification must be discussed.  
+- __When__ – 2 days before the end of sprint  
+- __Purpose__ – prepare for the demo  
+- __Action__ – freeze the code as much as possible.  
+- __Exceptions__ – any modification must be discussed.  
 #### Demo  
 - Who – every team member  
 - Env -- pre-prod    
 #### Retrospective  
-- Good
-- bad
-- nice-to-have	  
+- __What went well?__
+- __What can be improved?__ 
 
 ### Scrum Board
-- __Next__ - dev
-- __In progress__ – dev
-- __PR__ -- dev
-- __Dev__ done -- dev
-- __QA__ – only QA have the permission to drag a ticket into the this column
-- __Done__ – only QA have the permission to drag a ticket into this column
+- __Next__ - Only Dev has access to this column
+- __In progress__ – Only Dev has access to this column
+- __PR__ -- Only Dev has access to this column
+- __Dev__ done -- Only Dev has access to this column
+- __QA__ – Only QA have the permission to drag a ticket into the this column
+- __Done__ – Only QA have the permission to drag a ticket into this column
 
 
 ### Story
 ```
 As a user   
 I want to have my inputs validated  
-So that the system can store my information correctly and inform me in a graceful manner if I made any mistakes.    
+So that the system can store my information correctly.    
 
 Details:  
 1. when I navigate to application form on a PC and I click the submit button.  
@@ -93,7 +97,6 @@ And the name is empty
 Then the popup will be displayed  
 And the message in the popup is “the name input can not be empty”  
 
-
 Given that I have open the app  
 And I navigate to the application form page
 When I click on submit button
@@ -103,19 +106,24 @@ And the message in the popup is “the name input can not be empty”
 ```
 ### Tasks
 ```bash
+__Task 0__
 Create input validator layer in the data model and the returned result should  
 contain the property name and the correct error message – 4 hours  
 ```
 ```bash
+__Task 1__
 Unit test the validator with required scenarios – 2 hours  
 ```
 ```bash
+__Task 2__
 Trigger popup component if the validation failed – 1 hour  
 ```
 ```bash
+_Task 3__
 Highlight the input box and display the error message at the right of the input. – 3 hours  
 ```
 ```bash
+__Task 4__
 Scroll the window to the first input that contains error. – 3 hours
 ```
 
@@ -152,31 +160,54 @@ __release branch__ – Test, test, test, test, test then if happy, test it again
 __master branch__ – Only master branch goes into prod
 ```  
 
-## Pull Request
+## Pull Request(PR)
+Before a pull request is submited please past the following template into your PR
 - What is the PR about?
 - Why this PR exist?
 - If you have left some legacy, why?
 
 - Check list  
-- [ ] Include the story link and the task link
-- [ ] check CI
-- [ ] Only handling events in the controller
-- [ ] Business logics stays in the data model
-- [ ] Complexity analysis
-- [ ] No business logics in the view
-- [ ] Unit test all functions
-- [ ] Intergration test all features
+   - [ ] Include the story link and the task link
+   - [ ] check CI
+   - [ ] Only handling events in the controller
+   - [ ] Business logics stays in the data model
+   - [ ] Complexity analysis
+   - [ ] No business logics in the view
+   - [ ] Unit test all functions
+   - [ ] Intergration test all features  
 - BE NICE TO PEOPLE :relaxed:
 
 ## Styling  
 ### File Structure
-components, pages, helpers, commons. Try to keep it flat no more than 2 layers
+All file names are in lowercase and multiple words are connected with "-"(hyphon).
+:x: sampleWrongName.scss  
+:x: sample WrongName.scss  
+:x: Sample-WrongName.scss 
+:heavy_check_mark: _sample-correct-name.scss  
+:heavy_check_mark: sample-correct-name.scss  
+:heavy_check_mark: _sample.scss  
+:heavy_check_mark: sample.scss  
+common  
+   - _global.scss
+   - _mixins.scss
+components  
+   - _footer.scss
+   - _header.scss
+   - _spinner.scss
+   - _confirm.scss
+   - _product-list.scss
+ pages  
+   - _landing.scss
+   - _application.scss
+   - _checkout.scss
+index.scss  
+
+
 ### Naming Convention
 - BEM
-### Nesting
-```
-\*:+1:*\ Try not to create to many layers. 2 is the prefered number.
-```  
+### Nesting style
+Try to keep it flat. No more than 2 layers.
+:bulb: try not to create to many layers. 2 is the prefered number.  
 ```css
 .#{$global-namespace}-login-page{
   .form-btn{
@@ -260,4 +291,4 @@ We user openShift to handle our deployment.
 - __PROD__ 
 
 ## Authors
-
+Xin Wang (Digital Platform Principal Software Engineer)
