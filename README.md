@@ -3,7 +3,7 @@ Simplicity and consistency is what we try to achieve.
 
 ## OVERVIEW
 - [Scrum](#Scrum)
-   - [Scrum Principals](#Scrum-Principals)
+   - [Scrum Principles](#Scrum-Principles)
   - [Scrum Board](#Scrum-Board)
   - [Story](#Story)
   - [Acceptance-Criteria](#Acceptance-Criteria)
@@ -23,7 +23,7 @@ Simplicity and consistency is what we try to achieve.
 - [Environment](#Environment)
 
 ## SCRUM
-### Scrum Principals
+### Scrum Principles
 #### Sprints  
 - 2 or 3 weeks ( 10 – 15 working days, 60 to 90 working hours )
 - Code freeze period will take up 2-3 days at the end of each sprint, hence, dev time ≈ 45 - 75 hours
@@ -164,7 +164,7 @@ __Examples:__
 - __release branch__ – Test, test, test, test, test then if happy, test it again, then merge it into master
 - __master branch__ – Only master branch goes into prod
 
-## CODING PRINCIPLE
+## CODING PRINCIPLES
 - Data flow - One directional. How data format changes.
 - Service - Singleton.
 - Component - Everyting is a component. Including our universe.
