@@ -9,7 +9,7 @@ Simplicity and consistency is what we try to achieve.
   - [Acceptance-Criteria](#Acceptance-Criteria)
   - [Tasks](#Tasks)
 - [Version-Control](#Version-Control)
-- [Coding-Principals](#Coding-Principles)
+- [Coding-Principles](#Coding-Principles)
   - Factory
   - Service
   - Component
