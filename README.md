@@ -142,12 +142,12 @@ Estimation: 3 hours
 
 ## Version Control
 ### Naming convention
-All branch names are in lower case.
+All branch names are in lower case.  
 ```
 [type]/[ticket number]-[description of the branch]
-```
+```  
 
-Examples:
+__Examples:__
 :x: Feature/pccs201-my-task  
 :x: feature/pccs-202-my-task  
 :x: bug/pccs202-My-task  
@@ -155,17 +155,8 @@ Examples:
 :heavy_check_mark: fix/pccs202-my-task   
 :heavy_check_mark: feature/pccs201-my-task-with-brief-description  
 
-__More Examples:__
-```
-feature/pccs201-create-pop-up-component
-```  
-```
-bug/pccs301-pop-up-not-showing-up-when-request-fails
-```  
-```
-fix/pccs301-pop-up-not-showing-up-when-request-fails
-```  
-### Type of branches you will see
+ 
+### Type of branches you will need
 ```
 __feature branch__ – Task level
 ```  
