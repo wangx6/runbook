@@ -142,7 +142,7 @@ All branch names are in lower case. Examples:
 [type]/[ticket number]-[description of the branch]
 :x: Feature/pccs201-my-task  
 :x: feature/pccs-202-my-task  
-:x: bug/pccs202-My-task
+:x: bug/pccs202-My-task  
 :x: fix/pccs202-my_task  
 :heavy_check_mark: fix/pccs202-my-task   
 :heavy_check_mark: feature/pccs201-my-task-with-brief-description  
@@ -199,25 +199,25 @@ Before a pull request is submited please past the following template into your P
 All file names are in lowercase and multiple words are connected with "-"(hyphon).
 :x: sampleWrongName.scss  
 :x: sample WrongName.scss  
-:x: Sample-WrongName.scss 
+:x: Sample-WrongName.scss  
 :heavy_check_mark: _sample-correct-name.scss  
 :heavy_check_mark: sample-correct-name.scss  
 :heavy_check_mark: _sample.scss  
 :heavy_check_mark: sample.scss  
-common  
+- common  
    - _global.scss
    - _mixins.scss
-components  
+- components  
    - _footer.scss
    - _header.scss
    - _spinner.scss
    - _confirm.scss
    - _product-list.scss
- pages  
+- pages  
    - _landing.scss
    - _application.scss
    - _checkout.scss
-index.scss  
+- index.scss  
 
 ### Naming Convention
 - BEM
@@ -265,8 +265,9 @@ Try to keep it flat. No more than 2 layers.
 ## TESTING  
 Pre testing at PR stage – this may includes unit test, automation test, linting.  
 Unit testing – Both TDD and BDD. TDD will test a function as a unit and does not   
-deal with business logics directly. BDD will test public function’s outcome which describes a business logic.  
-example – 
+deal with business logics directly. BDD will test public function’s outcome which   
+describes a business logic.  
+__Example:__   
 ```javascript
 // TDD
 Const queryApi = async (url = config.DEFAULT.LOGIN_API, payload) => await http.post(url)});}  
@@ -295,7 +296,10 @@ const userLogin =  async () => {
 
 
 ## DEPLOYMENT (TODO)
-We user openShift to handle our deployment.  
+We use openShift to handle our deployment.  
+- Pod naming convention
+- Permission
+- Deploy to multiple environment
 - Deployment to QA environment - Dev lead, Test lead
 - Multi-branch setup on Jenkins
 
