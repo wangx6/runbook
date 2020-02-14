@@ -9,7 +9,7 @@ Simplicity and consistency is what we try to achieve.
   - [Acceptance-Criteria](#Acceptance-Criteria)
   - [Tasks](#Tasks)
 - [Version-Control](#Version-Control)
-- [Coding-Principals](#Coding-Principals)
+- [Coding-Principals](#Coding-Principles)
   - Factory
   - Service
   - Component
@@ -164,6 +164,16 @@ __Examples:__
 - __release branch__ – Test, test, test, test, test then if happy, test it again, then merge it into master
 - __master branch__ – Only master branch goes into prod
 
+## Coding Principles
+- Factory
+- Data flow
+- Service
+- Component
+- Model
+- Controller
+- View
+- Styling
+
 ## PULL REQUEST(PR)
 Before a pull request is submited please past the following template into your PR  
 - What is the PR about?
@@ -292,7 +302,7 @@ const userLogin =  async () => {
 - Human perception test. Including loading speed, A11Y test.
 
 
-## DEPLOYMENT (TODO)
+## DEPLOYMENT
 We use openShift to handle our deployment.  
 - Pod naming convention
 - Permission
