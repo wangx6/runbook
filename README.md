@@ -183,7 +183,7 @@ Before a pull request is submited please past the following template into your P
 
 ## CSS/SCSS  
 ### File Structure
-All file names are in lowercase and multiple words are connected with "-"(hyphon).  
+All file names are in lowercase and multiple words are connected with "-"(hyphen).  
 :x: sampleWrongName.scss  
 :x: sample WrongName.scss  
 :x: Sample-WrongName.scss  
