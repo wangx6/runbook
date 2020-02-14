@@ -44,9 +44,9 @@ __Note__: stories must be specified and grouped before any sprints start
 - __Host__ - BA
 - __Output__ – Acceptance criteria which describe all details of a story 
 
-:bulb:
+:bulb: __IMPORTANT__
 ```
-IMPORTANT:stories must be ready and signed off. Time management is crucial to make sure all the  
+Stories must be ready and signed off. Time management is crucial to make sure all the  
 ACs are defined by the end of this meeting. Keep discussion of the story to minimum. The focus of to  
 create ACs.
 ```
