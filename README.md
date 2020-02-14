@@ -297,4 +297,4 @@ We use openShift to handle our deployment.
 - __PROD__ 
 
 ## AUTHORS
-Xin Wang (Digital Platform Principal Software Engineer) - xin.wang@vhi.ie
+Xin Wang (Principles  Software Engineer) - xin.wang@vhi.ie
