@@ -147,7 +147,7 @@ All branch names are in lower case.
 [type]/[ticket number]-[description of the branch]
 ```  
 
-__Examples:__
+__Examples:__  
 :x: Feature/pccs201-my-task  
 :x: feature/pccs-202-my-task  
 :x: bug/pccs202-My-task  
@@ -157,24 +157,12 @@ __Examples:__
 
  
 ### Type of branches you will need
-```
-__feature branch__ – Task level
-```  
-```
-__fix branch__ – Fix during QA phase
-```  
-```
-__bug branch__ – Bug found at Prod phase
-```  
-```
-__dev branch__ – Dev branch and only dev branch goes into QA env
-```  
-```
-__release branch__ – Test, test, test, test, test then if happy, test it again, then merge it into master
-```  
-```
-__master branch__ – Only master branch goes into prod
-```  
+- __feature branch__ – Task level
+- __fix branch__ – Fix during QA phase
+- __bug branch__ – Bug found at Prod phase
+- __dev branch__ – Dev branch and only dev branch goes into QA env
+- __release branch__ – Test, test, test, test, test then if happy, test it again, then merge it into master
+- __master branch__ – Only master branch goes into prod
 
 ## PULL REQUEST(PR)
 Before a pull request is submited please past the following template into your PR  
