@@ -110,25 +110,25 @@ Then the popup will be displayed
 And the message in the popup is “the name input can not be empty”
 ```
 ### Tasks
-```bash
-__Task 0__
+__Task 0__  
+```
 Create input validator layer in the data model and the returned result should  
 contain the property name and the correct error message – 4 hours  
 ```
-```bash
-__Task 1__
+__Task 1__  
+```
 Unit test the validator with required scenarios – 2 hours  
 ```
-```bash
-__Task 2__
+__Task 2__  
+```
 Trigger popup component if the validation failed – 1 hour  
 ```
-```bash
-_Task 3__
+_Task 3__  
+```
 Highlight the input box and display the error message at the right of the input. – 3 hours  
 ```
-```bash
-__Task 4__
+__Task 4__  
+```
 Scroll the window to the first input that contains error. – 3 hours
 ```
 
