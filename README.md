@@ -31,7 +31,8 @@ Simplicity and consistency is what we try to achieve.
 Define stories and __DETAILS__ of each story. Details MUST be in place when a story is created 
 - __Input__ – business requirement  
 - __Who__ – UX, UI, PM and SM
-- __Output__ – stories and stories details  
+- __Output__ – stories and stories details
+
 :bulb:__Note__: stories must be specified and grouped before any sprints start  
 #### Stand-up  
 - What have you done yesterday and what do you plan to achieve today  
