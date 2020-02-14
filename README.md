@@ -30,7 +30,8 @@ Note: stories must be specified and grouped before any sprints start
 - Output – acceptance criteria which describe all details of a story 
 ```
 :bulb:  IMPORTANT: stories must be ready and signed off. Time management is crucial to make sure all the  
-ACs are defined by the end of this meeting. Keep discussion of the story to minimum. The focus of to create ACs.
+ACs are defined by the end of this meeting. Keep discussion of the story to minimum. The focus of to  
+create ACs.
 ```
 #### Planning  
 - Time – the day before the sprint. (Yes, the whole day)  
