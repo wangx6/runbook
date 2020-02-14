@@ -31,8 +31,8 @@ Simplicity and consistency is what we try to achieve.
 Define stories and __DETAILS__ of each story. Details MUST be in place when a story is created 
 - __Input__ – business requirement  
 - __Who__ – UX, UI, PM and SM
-- __Output__ – stories and stories details
-__Note__: stories must be specified and grouped before any sprints start  
+- __Output__ – stories and stories details  
+:bulb:__Note__: stories must be specified and grouped before any sprints start  
 #### Stand-up  
 - What have you done yesterday and what do you plan to achieve today  
 - Any blockers or concerns
@@ -178,7 +178,7 @@ __master branch__ – Only master branch goes into prod
 ```  
 
 ## PULL REQUEST(PR)
-Before a pull request is submited please past the following template into your PR
+Before a pull request is submited please past the following template into your PR  
 - What is the PR about?
 - Why this PR exist?
 - If you have left some legacy, why?
@@ -196,7 +196,7 @@ Before a pull request is submited please past the following template into your P
 
 ## CSS/SCSS  
 ### File Structure
-All file names are in lowercase and multiple words are connected with "-"(hyphon).
+All file names are in lowercase and multiple words are connected with "-"(hyphon).  
 :x: sampleWrongName.scss  
 :x: sample WrongName.scss  
 :x: Sample-WrongName.scss  
@@ -222,8 +222,7 @@ All file names are in lowercase and multiple words are connected with "-"(hyphon
 ### Naming Convention
 - BEM
 ### Nesting style
-Try to keep it flat. No more than 2 layers.
-:bulb: try not to create to many layers. 2 is the prefered number.  
+:bulb: Try not to create to many layers. 2 is the prefered number.  
 ```css
 .#{$global-namespace}-login-page{
   .form-btn{
