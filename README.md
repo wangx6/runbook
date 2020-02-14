@@ -175,23 +175,6 @@ __Examples:__
 - View - reflection of state which is created as side effect of static data from the model.
 - Styling - Single source of truth(SSOT)
 
-## PULL REQUEST(PR)
-Before a pull request is submited please past the following template into your PR  
-- What is the PR about?
-- Why this PR exist?
-- If you have left some legacy, why?
-
-- Check list  
-   - [ ] Include the story link and the task link
-   - [ ] check CI
-   - [ ] Only handling events in the controller
-   - [ ] Business logics stays in the data model
-   - [ ] Complexity analysis
-   - [ ] No business logics in the view
-   - [ ] Unit test all functions
-   - [ ] Intergration test all features  
-- BE NICE TO PEOPLE :relaxed:
-
 ## CSS/SCSS  
 ### File Structure
 All file names are in lowercase and multiple words are connected with "-"(hyphen).  
@@ -302,6 +285,23 @@ const userLogin =  async () => {
 - Manual test
 - Devices – test on all devices. Including portrait and landscape.
 - Human perception test. Including loading speed, A11Y test.
+
+## PULL REQUEST(PR)
+Before a pull request is submited please paste the following template into your PR  
+- What is the PR about?
+- Why this PR exist?
+- If you have left some legacy, why?
+
+- Check list  
+   - [ ] Include the story link and the task link
+   - [ ] check CI
+   - [ ] Only handling events in the controller
+   - [ ] Business logics stays in the data model
+   - [ ] Complexity analysis
+   - [ ] No business logics in the view
+   - [ ] Unit test all functions
+   - [ ] Intergration test all features  
+- BE NICE TO PEOPLE :relaxed:
 
 
 ## DEPLOYMENT
