@@ -120,32 +120,36 @@ Scroll the window to the first input that contains error. – 3 hours
 ```
 
 ## Version Control
+### Naming convention
 All branch names are in lower case. Examples:
-
+[type]/[ticket number]-[description of the branch]
 ```
-feature/pccs-201-create-pop-up-component
+feature/pccs201-create-pop-up-component
 ```  
 ```
-bug/pccs-301-pop-up-not-showing-up-when-request-fails
-```  
-
-```
-Feature branch – task level
+bug/pccs301-pop-up-not-showing-up-when-request-fails
 ```  
 ```
-Fix branch – fix during QA phase
+fix/pccs301-pop-up-not-showing-up-when-request-fails
+```  
+### Type of branches you will see
+```
+__feature branch__ – Task level
 ```  
 ```
-Bug branch – bug found at Prod phase
+__fix branch__ – Fix during QA phase
 ```  
 ```
-Dev branch – dev branch and only dev branch goes into QA env
+__bug branch__ – Bug found at Prod phase
 ```  
 ```
-Release branch – test, test, test, test, test then if happy, merge it into master
+__dev branch__ – Dev branch and only dev branch goes into QA env
 ```  
 ```
-Master branch – master and only master branch goes into pre-prod and prod
+__release branch__ – Test, test, test, test, test then if happy, test it again, then merge it into master
+```  
+```
+__master branch__ – Only master branch goes into prod
 ```  
 
 ## Pull Request
