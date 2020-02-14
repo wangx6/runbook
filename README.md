@@ -1,4 +1,4 @@
-# VHI Frontend Software Development
+# Frontend Software Development
 Simplicity and consistency is what we try to achieve.  
 
 ## OVERVIEW
