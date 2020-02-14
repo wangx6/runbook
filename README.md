@@ -145,7 +145,7 @@ components, pages, helpers, commons. Try to keep it flat no more than 2 layers
 - BEM
 ### Nesting
 ```
-:bulb: Try not to create to many layers. 2 is the prefered number.
+:+1: Try not to create to many layers. 2 is the prefered number.
 ```  
 ```css
 .#{$global-namespace}-login-page{
