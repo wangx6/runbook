@@ -67,9 +67,7 @@ create ACs.
 - __What went well?__
 - __What can be improved?__ 
   
-  
-  
-## SCRUM BOARD
+### Scrum Board
 - __Next__ - Only Dev has access to this column
 - __In progress__ – Only Dev has access to this column
 - __PR__ -- Only Dev has access to this column
@@ -171,7 +169,7 @@ __release branch__ – Test, test, test, test, test then if happy, test it again
 __master branch__ – Only master branch goes into prod
 ```  
 
-## Pull Request(PR)
+## PULL REQUEST(PR)
 Before a pull request is submited please past the following template into your PR
 - What is the PR about?
 - Why this PR exist?
@@ -188,7 +186,7 @@ Before a pull request is submited please past the following template into your P
    - [ ] Intergration test all features  
 - BE NICE TO PEOPLE :relaxed:
 
-## Styling  
+## CSS/SCSS  
 ### File Structure
 All file names are in lowercase and multiple words are connected with "-"(hyphon).
 :x: sampleWrongName.scss  
@@ -212,7 +210,6 @@ components
    - _application.scss
    - _checkout.scss
 index.scss  
-
 
 ### Naming Convention
 - BEM
@@ -257,7 +254,7 @@ Try to keep it flat. No more than 2 layers.
 }
 ```
 
-## Testing  
+## TESTING  
 Pre testing at PR stage – this may includes unit test, automation test, linting.  
 Unit testing – Both TDD and BDD. TDD will test a function as a unit and does not   
 deal with business logics directly. BDD will test public function’s outcome which describes a business logic.  
@@ -289,17 +286,17 @@ const userLogin =  async () => {
 - Human perception test. Including loading speed, A11Y test.
 
 
-## Deployment
+## DEPLOYMENT (TODO)
 We user openShift to handle our deployment.  
 - Deployment to QA environment - Dev lead, Test lead
 - Multi-branch setup on Jenkins
 
 
-## Environment  
+## ENVIRONMENT
 - __DEV__ – (example pccs-test.vhi.dev)
 - __QA__ --  (example MULTIPLE – ie. pccs-test.vhi.QA-0-DEV)
 - __PRE-PROD__ – (example pccs-test.vhi.pre-prod)
 - __PROD__ 
 
-## Authors
-Xin Wang (Digital Platform Principal Software Engineer)
+## AUTHORS
+Xin Wang (Digital Platform Principal Software Engineer) - xin.wang@vhi.ie
