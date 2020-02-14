@@ -164,7 +164,7 @@ __Examples:__
 - __release branch__ – Test, test, test, test, test then if happy, test it again, then merge it into master
 - __master branch__ – Only master branch goes into prod
 
-## Coding Principles
+## CODING PRINCIPLE
 - Factory
 - Data flow
 - Service
