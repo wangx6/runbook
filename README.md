@@ -1,5 +1,7 @@
 # Frontend Software Development
 Simplicity and consistency is what we try to achieve.  
+What we do should create value to our customer.  
+What we do should make our team proud and happy.  
 
 ## OVERVIEW
 - [Scrum](#Scrum)
