@@ -33,7 +33,10 @@ Define stories and __DETAILS__ of each story. Details MUST be in place when a st
 - __Who__ – UX, UI, PM and SM
 - __Output__ – Stories and stories details
 
-:bulb:__Note__: Stories must be specified and grouped before any sprints start  
+:bulb:__IMPORTANT__
+```
+Stories MUST be specified and grouped before any sprints start  
+```
 #### Stand-up  
 - What have you done yesterday and what do you plan to achieve today  
 - Any blockers or concerns
