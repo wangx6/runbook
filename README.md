@@ -252,7 +252,18 @@ All file names are in lowercase and multiple words are connected with "-"(hyphen
 - Pre testing at PR stage – this may includes unit test, automation test, linting.  
 - Unit testing – Both TDD and BDD. 
 - TDD will test a function as a unit and does not deal with business logics directly. 
-- BDD will test public function’s outcome which describes a business logic.  
+- BDD will test public function’s outcome which describes a business logic.
+
+### Key knowledge you need to have
+- Full scennarios covering
+- Network async handling
+- User event async handling
+- Mocking implementation
+- Mocking a module
+- Clearup
+- Access an element within a component
+- Access the content of a element
+- Waiting for element to be ready
 __Example:__   
 ```javascript
 // TDD
