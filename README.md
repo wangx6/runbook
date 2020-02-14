@@ -1,7 +1,6 @@
 # VHI frontend Software Development
 Simple and consistent is what we try to achieve.  
-"*The first principle is that you must not fool yourself and you are the easiest person to fool.*"  
-- Richard Feynman  
+"*The first principle is that you must not fool yourself and you are the easiest person to fool.*" - Richard Feynman  
 ## OVERVIEW
 - [Scrum](#Scrum)
   - [Scrum Principals]Scrum Principals
