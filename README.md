@@ -165,14 +165,13 @@ __Examples:__
 - __master branch__ – Only master branch goes into prod
 
 ## CODING PRINCIPLE
-- Factory
-- Data flow
-- Service
-- Component
-- Model
-- Controller
-- View
-- Styling
+- Data flow - One directional. How data format changes.
+- Service - Singleton.
+- Component - Everyting is a component. Including our universe.
+- Model - Contains all business logic.
+- Controller - ONLY detects event. Don't handle business logic in a controller.
+- View - reflection of state which is created as side effect of static data from the model.
+- Styling - Single source of truth(SSOT)
 
 ## PULL REQUEST(PR)
 Before a pull request is submited please past the following template into your PR  
