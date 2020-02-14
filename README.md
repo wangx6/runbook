@@ -271,10 +271,10 @@ All file names are in lowercase and multiple words are connected with "-"(hyphen
 - User event async handling
 - Mocking implementation
 - Mocking a module
-- Clearup
+- Cleanup
 - Access an element within a component
 - Access the content of a element
-- Waiting for element to be ready
+- Waiting for element to be ready  
 __Example:__   
 ```javascript
 // TDD
