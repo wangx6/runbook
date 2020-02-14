@@ -275,6 +275,7 @@ All file names are in lowercase and multiple words are connected with "-"(hyphen
 - Access an element within a component
 - Access the content of a element
 - Waiting for element to be ready  
+
 __Example:__   
 ```javascript
 // TDD
