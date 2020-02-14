@@ -286,7 +286,7 @@ const userLogin =  async () => {
 - Devices – test on all devices. Including portrait and landscape.
 - Human perception test. Including loading speed, A11Y test.
 
-## PULL REQUEST(PR)
+## PULL REQUEST
 Before a pull request is submited please paste the following template into your PR  
 - What is the PR about?
 - Why this PR exist?
