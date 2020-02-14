@@ -23,26 +23,26 @@ Simplicity and consistency is what we try to achieve.
 - [Environment](#Environment)
 
 ## SCRUM
-   ### Scrum Principals
-   #### Sprints  
-   - 2 or 3 weeks ( 10 – 15 working days, 60 to 90 working hours )
-   - Code freeze period will take up 2-3 days at the end of each sprint, hence, dev time ≈ 45 - 75 hours
-   #### Scope and seek  
-   Define stories and __DETAILS__ of each story. Details MUST be in place when a story is created 
-   - __Input__ – business requirement  
-   - __Who__ – UX, UI, PM and SM
-   - __Output__ – stories and stories details
-   __Note__: stories must be specified and grouped before any sprints start  
-   #### Stand-up  
-   - What have you done yesterday and what do you plan to achieve today  
-   - Any blockers or concerns
-   - Keep it under 10 minutes
-   #### Refinement
-   - __When__ - Commonly once a week ane 1 hour per session. Time is crucial.
-   - __Input__ – Stories with details for the next sprint
-   - __Who__ – QA, BA, DEV
-   - __Host__ - BA
-   - __Output__ – Acceptance criteria which describe all details of a story 
+### Scrum Principals
+#### Sprints  
+- 2 or 3 weeks ( 10 – 15 working days, 60 to 90 working hours )
+- Code freeze period will take up 2-3 days at the end of each sprint, hence, dev time ≈ 45 - 75 hours
+#### Scope and seek  
+Define stories and __DETAILS__ of each story. Details MUST be in place when a story is created 
+- __Input__ – business requirement  
+- __Who__ – UX, UI, PM and SM
+- __Output__ – stories and stories details
+__Note__: stories must be specified and grouped before any sprints start  
+#### Stand-up  
+- What have you done yesterday and what do you plan to achieve today  
+- Any blockers or concerns
+- Keep it under 10 minutes
+#### Refinement
+- __When__ - Commonly once a week ane 1 hour per session. Time is crucial.
+- __Input__ – Stories with details for the next sprint
+- __Who__ – QA, BA, DEV
+- __Host__ - BA
+- __Output__ – Acceptance criteria which describe all details of a story 
 
 :bulb: __IMPORTANT__
 ```
@@ -66,8 +66,10 @@ create ACs.
 #### Retrospective  
 - __What went well?__
 - __What can be improved?__ 
-
-### Scrum Board
+  
+  
+  
+## SCRUM BOARD
 - __Next__ - Only Dev has access to this column
 - __In progress__ – Only Dev has access to this column
 - __PR__ -- Only Dev has access to this column
