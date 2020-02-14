@@ -3,12 +3,12 @@ Simplicity and consistency is what we try to achieve.
 
 ## OVERVIEW
 - [Scrum](#Scrum)
-  - [Scrum Principals]Scrum Principals
-  - [Scrum Board]Scrum Board
-  - [Story]Story
-  - [Acceptance-Criteria]Acceptance Criteria
-  - [Tasks]Tasks
-- [Version-Control]Version Control
+  [Scrum Principals] - Scrum Principals
+  [Scrum Board] - Scrum Board
+  [Story] - Story
+  [Acceptance-Criteria] - Acceptance Criteria
+  [Tasks] - Tasks
+[Version-Control] - Version Control
 - [Coding-Principals]Coding Principals
   - Factory
   - Service
