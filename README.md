@@ -142,8 +142,8 @@ Estimation: 3 hours
 
 ## Version Control
 ### Naming convention
-All branch names are in lower case. Examples:
-[type]/[ticket number]-[description of the branch]
+All branch names are in lower case. Examples:  
+[type]/[ticket number]-[description of the branch]  
 :x: Feature/pccs201-my-task  
 :x: feature/pccs-202-my-task  
 :x: bug/pccs202-My-task  
