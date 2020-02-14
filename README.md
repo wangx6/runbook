@@ -43,11 +43,11 @@ __Note__: stories must be specified and grouped before any sprints start
 - __Who__ – QA, BA, DEV
 - __Host__ - BA
 - __Output__ – Acceptance criteria which describe all details of a story 
-```
-__IMPORTANT:__ stories must be ready and signed off. Time management is crucial to make sure all the  
+
+:bulb:I__MPORTANT:__stories must be ready and signed off. Time management is crucial to make sure all the  
 ACs are defined by the end of this meeting. Keep discussion of the story to minimum. The focus of to  
 create ACs.
-```
+
 #### Planning  
 - __When__ – the day before the sprint. (Yes, the whole day)  
 - __Who__ – QA, Dev  
@@ -84,9 +84,12 @@ Details:
 1. when I navigate to application form on a PC and I click the submit button.  
 If the “name” is empty I should see a message popup saying the “the name input can not be empty”  
 
-2. If the “name” length is more that 110 chars I should see a message popup saying the “the length of the name exceeds the limit”  
+2. If the “name” length is more that 110 chars I should see a message popup saying the “the  
+length of the name exceeds the limit”  
 
-3. If the validation of any input is doesn’t not pass the page should automatically scroll to the position of the first input that does not pass the validation and highlighted in red and the error message will be displayed to the right of the input
+3. If the validation of any input is doesn’t not pass the page should automatically scroll   
+to the position of the first input that does not pass the validation and highlighted in red   
+and the error message will be displayed to the right of the input
 ```
 ### Acceptance Criteria
 ```
