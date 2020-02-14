@@ -29,11 +29,11 @@ Simplicity and consistency is what we try to achieve.
 - Code freeze period will take up 2-3 days at the end of each sprint, hence, dev time ≈ 45 - 75 hours
 #### Scope and seek  
 Define stories and __DETAILS__ of each story. Details MUST be in place when a story is created 
-- __Input__ – business requirement  
+- __Input__ – Business requirement  
 - __Who__ – UX, UI, PM and SM
-- __Output__ – stories and stories details
+- __Output__ – Stories and stories details
 
-:bulb:__Note__: stories must be specified and grouped before any sprints start  
+:bulb:__Note__: Stories must be specified and grouped before any sprints start  
 #### Stand-up  
 - What have you done yesterday and what do you plan to achieve today  
 - Any blockers or concerns
