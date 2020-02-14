@@ -3,13 +3,13 @@ Simplicity and consistency is what we try to achieve.
 
 ## OVERVIEW
 - [Scrum](#Scrum)
-  [Scrum Principals] - Scrum Principals
-  [Scrum Board] - Scrum Board
-  [Story] - Story
-  [Acceptance-Criteria] - Acceptance Criteria
-  [Tasks] - Tasks
-[Version-Control] - Version Control
-- [Coding-Principals]Coding Principals
+   - [Scrum Principals](#Scrum Principals)
+  - [Scrum Board](#Scrum Board)
+  - [Story](#Story)
+  - [Acceptance-Criteria](#Acceptance Criteria)
+  - [Tasks](#Tasks)
+- [Version-Control](#Version Control)
+- [Coding-Principals](#Coding Principals)
   - Factory
   - Service
   - Component
@@ -17,10 +17,10 @@ Simplicity and consistency is what we try to achieve.
   - Controller
   - View
   - Styling
-- [Testing]Testing
-- [Pull-Request]Pull Request
-- [Deployment]Deployment
-- [Environment]Environment
+- [Testing](#Testing)
+- [Pull-Request](#Pull Request)
+- [Deployment](#Deployment)
+- [Environment](#Environment)
 
 ## Scrum
 ### Scrum Principals
