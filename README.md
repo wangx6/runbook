@@ -1,19 +1,29 @@
 # VHI frontend Software Development
+Simple and consistent is what we try to achieve.
+"The first principle is that you must not fool yourself and you are the easiest person to fool." - Richard Feynman  
 ## OVERVIEW
 - [Scrum](#Scrum)
   - [Scrum Principals]Scrum Principals
   - [Scrum Board]Scrum Board
-  - [Story]stories
+  - [Story]Story
   - [Acceptance-Criteria]Acceptance Criteria
   - [Tasks]Tasks
 - [Version-Control]Version Control
-- [Pull-Request]Pull Request
-- [Coding-Principals]Coding Principals - simple and consistent
+- [Coding-Principals]Coding Principals
+  - Factory
+  - Service
+  - Component
+  - Model
+  - Controller
+  - View
+  - Styling
 - [Testing]Testing
+- [Pull-Request]Pull Request
 - [Deployment]Deployment
 - [Environment]Environment
 
 ## Scrum
+### Scrum Principals
 #### Sprints  
 2 or 3 weeks ( 10 – 15 working days, 60 to 90 working hours )      
 #### Scope and seek – define stories and details of each story  
@@ -51,7 +61,7 @@ create ACs.
 - bad
 - nice-to-have	  
 
-#### Stages
+### Scrum Board
 - __Next__ - dev
 - __In progress__ – dev
 - __PR__ -- dev
@@ -91,7 +101,7 @@ And the name is one or more spaces
 Then the popup will be displayed
 And the message in the popup is “the name input can not be empty”
 ```
-### Task
+### Tasks
 ```bash
 Create input validator layer in the data model and the returned result should  
 contain the property name and the correct error message – 4 hours  
