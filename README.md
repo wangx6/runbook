@@ -117,19 +117,23 @@ contain the property name and the correct error message – 4 hours
 ```
 __Task 1__  
 ```
-Unit test the validator with required scenarios – 2 hours  
+Unit test the validator with required scenarios.  
+Estimation: 2 hours  
 ```
 __Task 2__  
 ```
-Trigger popup component if the validation failed – 1 hour  
+Trigger popup component if the validation failed.  
+Estimation: 1 hour  
 ```
-_Task 3__  
+__Task 3__  
 ```
-Highlight the input box and display the error message at the right of the input. – 3 hours  
+Highlight the input box and display the error message at the right of the input.  
+Estimation: 3 hours  
 ```
 __Task 4__  
 ```
-Scroll the window to the first input that contains error. – 3 hours
+Scroll the window to the first input that contains error.
+Estimation: 3 hours
 ```
 
 ## Version Control
