@@ -61,8 +61,8 @@ create ACs.
 - __Action__ – freeze the code as much as possible.  
 - __Exceptions__ – any modification must be discussed.  
 #### Demo  
-- Who – every team member  
-- Env -- pre-prod    
+- __Who__ – Every team member and the business.  
+- __Env__ -- pre-prod    
 #### Retrospective  
 - __What went well?__
 - __What can be improved?__ 
@@ -140,6 +140,14 @@ Estimation: 3 hours
 ### Naming convention
 All branch names are in lower case. Examples:
 [type]/[ticket number]-[description of the branch]
+:x: Feature/pccs201-my-task  
+:x: feature/pccs-202-my-task  
+:x: bug/pccs202-My-task
+:x: fix/pccs202-my_task  
+:heavy_check_mark: fix/pccs202-my-task   
+:heavy_check_mark: feature/pccs201-my-task-with-brief-description  
+
+__More Examples:__
 ```
 feature/pccs201-create-pop-up-component
 ```  
