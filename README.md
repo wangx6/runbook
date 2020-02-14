@@ -256,13 +256,13 @@ describes a business logic.
 __Example:__   
 ```javascript
 // TDD
-Const queryApi = async (url = config.DEFAULT.LOGIN_API, payload) => await http.post(url)});}  
+const queryApi = async (url = config.DEFAULT.LOGIN_API, payload) => await http.post(url)});}  
 
 // TDD  
-Const checkEmptyStr = (str) => //.test(str);  
+const checkEmptyStr = (str) => str.trim() === '';  
 
 // BDD  
-Const validateLoginResponse = (res) => {  
+const validateLoginResponse = (res) => {  
         checkEmptyStr(res.data);  
         … other checks  
 }  
