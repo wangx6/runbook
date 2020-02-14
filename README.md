@@ -249,10 +249,10 @@ All file names are in lowercase and multiple words are connected with "-"(hyphen
 ```
 
 ## TESTING  
-Pre testing at PR stage – this may includes unit test, automation test, linting.  
-Unit testing – Both TDD and BDD. TDD will test a function as a unit and does not   
-deal with business logics directly. BDD will test public function’s outcome which   
-describes a business logic.  
+- Pre testing at PR stage – this may includes unit test, automation test, linting.  
+- Unit testing – Both TDD and BDD. 
+- TDD will test a function as a unit and does not deal with business logics directly. 
+- BDD will test public function’s outcome which describes a business logic.  
 __Example:__   
 ```javascript
 // TDD
