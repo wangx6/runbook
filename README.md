@@ -297,5 +297,5 @@ We use openShift to handle our deployment.
 - __PROD__ 
 
 ## AUTHORS
-Xin Wang (Principles  Software Engineer) - xin.wang@vhi.ie
+Xin Wang (Principles  Software Engineer) - xin.wang@vhi.ie  
 *"The first principle is that you must not fool yourself and you are the easiest person to fool."* - Richard Feynman (1918- 1988)
